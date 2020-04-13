@@ -43,5 +43,10 @@ If you run a very lean local development environment (as I do), you may find
 these Docker commands useful when testing the scripts.
 
 ```bash
-$ MSYS_NO_PATHCONV=1 docker run -it --rm -v "$(pwd)":/usr/src/myapp -w /usr/src/myapp python:3.8.2-slim-buster /bin/bash -c "pip install requests && python main.py"
+$ docker build -t coah-bc -<<EOF
+FROM python:3.8.2-slim-buster
+RUN pip install requests
+WORKDIR /usr/src/myapp
+EOF
+$ MSYS_NO_PATHCONV=1 docker run -it --rm -v "$(pwd)":/usr/src/myapp coah-bc python main.py
 ```
