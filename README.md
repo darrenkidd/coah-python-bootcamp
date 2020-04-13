@@ -31,7 +31,7 @@ That's where most of the editing and learning will be done.
 
 ### Links to Lesson Notes
 
-* [Lesson 1 - TBC](./LESSON_1.md)
+* [Lesson 1 - The Basics, Weather API and Refactoring :hatched_chick:](./lesson1/LESSON1_NOTES.md)
 
 ## Advanced Stuff
 
@@ -43,5 +43,5 @@ If you run a very lean local development environment (as I do), you may find
 these Docker commands useful when testing the scripts.
 
 ```bash
-$ MSYS_NO_PATHCONV=1 docker run -it --rm -v "$(pwd)":/usr/src/myapp -w /usr/src/myapp python:3.8.2-slim-buster python main.py
+$ MSYS_NO_PATHCONV=1 docker run -it --rm -v "$(pwd)":/usr/src/myapp -w /usr/src/myapp python:3.8.2-slim-buster /bin/bash -c "pip install requests && python main.py"
 ```
