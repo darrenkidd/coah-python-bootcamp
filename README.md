@@ -27,6 +27,17 @@ Type in **`darrenkidd/coah-python-bootcamp`** as the GitHub URL and then click *
 
 This should set everything up for you.
 
+## Why Python?
+
+Python is an easy-to-read, simple, yet powerful language, which makes it a wonderful
+language to start learning with. Once you know the basics, there is so much you can
+do with it!
+
+It's also become incredibly popular in the last decade because of it's applications
+in data science and machine-learning/artificial-intelligence. In addition, it provides
+excellent libraries for _integrating_ APIs/services/websites into your own custom
+workflows. This is why programming is such a key skill to learn, today!
+
 ## Layout
 
 1. Each **lesson folder** will contain all of the individual (working) steps we
@@ -34,8 +45,6 @@ will progress through during the lesson. Feel free to go have a look if you get
 stuck. It also contains the lesson notes.
 1. The **`main.py`** file is really just a scratch-pad for you to use in repl.it.
 That's where most of the editing and learning will be done.
-
-
 
 ### Links to Lesson Notes
 
