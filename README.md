@@ -10,6 +10,9 @@ We will be using [repl.it](https://repl.it/) as our coding platform. It's free,
 and you don't have to install anything on your computer. This makes it super easy
 for us to get started!
 
+> :warning: **Note that the free tier doesn't allow for private Repls, so everything will be
+> visible to anyone who finds your code. Don't write anything private in there!**
+
 To start with, go to the link above, and then click on the **+** button near "Create":
 
 ![Create Repl](create_repl.png)
@@ -31,6 +34,8 @@ will progress through during the lesson. Feel free to go have a look if you get
 stuck. It also contains the lesson notes.
 1. The **`main.py`** file is really just a scratch-pad for you to use in repl.it.
 That's where most of the editing and learning will be done.
+
+
 
 ### Links to Lesson Notes
 
