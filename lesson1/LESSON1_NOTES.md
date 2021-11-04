@@ -77,8 +77,10 @@ useful work.
 * We are going to connect to the MetService API which publishes key weather data
   online for us to use (sort of).
 * We can check out what the MetService API data looks like by clicking on
-  [this link](https://www.metservice.com/publicData/localForecastWellington). We
+  [this link](https://www.metservice.com/publicData/localForecastWellington) (or see
+  [this nicely-formatted version](https://jsonformatter.curiousconcept.com/?process=true&data=https://www.metservice.com/publicData/localForecastWellington)). We
   are going to grab the max temperature from this data and use it in our code.
+  (TODO: find an alternative API.)
 * Often you don't have the time or desire to write all of the code you need to
   do every little thing. It's generally better to see if someone else has
   already written it for you. This saves a lot of time!
