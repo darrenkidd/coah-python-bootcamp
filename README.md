@@ -2,8 +2,7 @@
 
 A fun introduction to the joys of programming with Python 3. No planking.
 
-![Python Logo](https://www.python.org/static/community_logos/python-logo-generic.svg)
-![repl.it Logo](https://cdn.freebiesupply.com/logos/large/2x/replit-logo-png-transparent.png)
+<img alt="Python Logo" src="https://www.python.org/static/community_logos/python-logo-generic.svg" width="150" /><img alt="Replit Logo" src="https://cdn.freebiesupply.com/logos/large/2x/replit-logo-png-transparent.png" width="150" />
 
 ## Importing into repl.it
 
@@ -11,13 +10,17 @@ We will be using [repl.it](https://repl.it/) as our coding platform. It's free,
 and you don't have to install anything on your computer. This makes it super easy
 for us to get started!
 
-To start with, go to the link above, and then click on the **Start Coding** button:
+To start with, go to the link above, and then click on the **+** button near "Create":
 
-![Start Coding](start_coding.png)
+![Create Repl](create_repl.png)
 
-Select the **Import from GitHub** tab and then type in **`darrenkidd/coah-python-bootcamp`**:
+Select the **Import from GitHub** button on the top-right.
 
-![Import from GitHub](import_from_github.png)
+![Import from GitHub](switch_modes.png)
+
+Type in **`darrenkidd/coah-python-bootcamp`** as the GitHub URL and then click **Import from GitHub**:
+
+![Import from GitHub](import_from_gh.png)
 
 This should set everything up for you.
 
