@@ -1,6 +1,6 @@
-https://api.nasa.gov/neo/rest/v1/feed?start_date=2015-09-07&end_date=2015-09-08&api_key=DEMO_KEY
+"""
+We introduced lists in the last lesson but didn't really do much with it
+we are going to start by importing a list of asteroids
+"""
 
 
-https://api.nasa.gov/index.html#browseAPI
-Asteroids - NeoWs
-SON
