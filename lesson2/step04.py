@@ -1,53 +1,35 @@
 from mountains import TALLEST
 
+# let's turn this into a function we can call
+# we can even move it to our module
 
+def is_a_tall_mountain(mountain_to_find):
+    found_mountain = None
+    for mountain in TALLEST:
+        if mountain_to_find in mountain:
+            found_mountain = mountain
+    return found_mountain
 
-mountain_to_find = "Aoraki (Mount Cook)"
-found_it = False
-
-# do this bit second
-if mountain_to_find in TALLEST:
-    found_it = True
-
-if found_it:
-    print(f"{mountain_to_find} IS in our list!")
+my_mountain = is_a_tall_mountain("cook")
+if my_mountain:
+    print(f"{my_mountain} IS in our list!")
 else:
-    print(f"{mountain_to_find} IS NOT in our list!")
+    print(f"Your mountain IS NOT in our list!")
 
 
+def is_a_tall_mountain(mountain_to_find):
+    found_mountain = None
+    for mountain in TALLEST:
+        if mountain_to_find.lower() in mountain.lower():
+            found_mountain = mountain
+    return found_mountain
 
-
-# then just
-if mountain_to_find in TALLEST:
-    print(f"{mountain_to_find} IS in our list!")
+my_mountain = is_a_tall_mountain("cook")
+if my_mountain:
+    print(f"{my_mountain} IS in our list!")
 else:
-    print(f"{mountain_to_find} IS NOT in our list!")
+    print(f"Your mountain IS NOT in our list!")
 
-
-# then
-mountain_to_find = "Egmont"
-
-found_it = False
-for mountain in TALLEST:
-    if mountain_to_find in mountain:
-        found_it = True
-
-if found_it:
-    print(f"{mountain_to_find} IS in our list!")
-else:
-    print(f"{mountain_to_find} IS NOT in our list!")
-
-
-# exercise - get the full name of the mountain!
-found_mountain = None
-for mountain in TALLEST:
-    if mountain_to_find in mountain:
-        found_mountain = mountain
-
-if found_mountain:
-    print(f"{mountain_to_find} IS in our list as {found_mountain}!")
-else:
-    print(f"{mountain_to_find} IS NOT in our list!")
 
 
 '''
@@ -140,3 +122,4 @@ def blah(date):
 
 # talk about trailing commas
 '''
+
