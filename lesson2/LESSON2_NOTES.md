@@ -115,10 +115,78 @@ Python includes a built-in function called `sorted()`. It takes in an array, and
 
 ## Step 3
 
-TBC
+Part of our data analysis might include finding out whether a certain mountain is in our list.
 
+* Let's write out an algorithm in something called _pseudocode_ to find an item in the list:
+  ```
+  set the "mountain to find" to be "Aoraki (Mount Cook)"
+  set a flag to say we haven't yet found the mountain
+  for every mountain in the list
+    if the name of the mountain is the same as the mountain to find
+      set a flag to say we found it
+    end if
+  end for
+  ```
+* Before even writing a line of code, you can actually test this algorithm with pen and paper or even in your head! Algorithms are at the core of programming, but don't have to exist in code!
+* Fortunately, implementing this algorithm is quite easy in Python, because it's been designed to be very natural to read and write.
+  ```python
+  mountain_to_find = "Aoraki (Mount Cook)"
+  found_it = False
 
+  for mountain in TALLEST:
+    if mountain == mountain_to_find:
+      found_it = True
+  ```
+* Let's print out whether we found it or not:
+  ```python
+  if found_it:
+      print(f"{mountain_to_find} IS in our list!")
+  else:
+      print(f"{mountain_to_find} IS NOT in our list!")
+  ```
+* Try changing the value of the `mountain_to_find` variable and see what it prints out. Does it work as expected?
+
+So this does what we expect. But for this simple use case, there's actually a better way that's built-in to Python!
+
+* You can use the `in` operator, which will search a list (or iterable) and return `True` if it found the thing you were looking for.
+* So we can simplify 3 lines of code:
+  ```python
+  if mountain_to_find in TALLEST:
+    found_it = True
+  
+  if found_it:
+      print(f"{mountain_to_find} IS in our list!")
+  else:
+      print(f"{mountain_to_find} IS NOT in our list!")
+  ```
+* Actually, we can simplify our code even more down to this:
+  ```python
+  if mountain_to_find in TALLEST:
+      print(f"{mountain_to_find} IS in our list!")
+  else:
+      print(f"{mountain_to_find} IS NOT in our list!")
+  ```
+
+That's a very useful place to pause. We now know about the `in` operator now, and we know how it (approximately) works under-the-hood to search through lists of anything.
+
+:target: Challenge: can you print out the _full name_ of the mountain with only part of it's name?
+
+[**Step 3 - Finished Code**](./lesson2/step03.py)
+
+## Step 4
+
+So our previous code was able to find a tall mountain by name. Let's see if we can _refactor_ this into a function that we can call to do the searching for us.
+
+* The basic structure of our function is as follows:
+  ```python
+  def is_a_tall_mountain(mountain_to_find):
+    ...
+    return something
+  ```
+
+[**Step 4 - Finished Code**](./lesson2/step04.py)
+ 
 ## Final Improvements
 
-* Can we simplify our code any more? Can we reduce duplication of text?
-* We could move the URL into a special variable as well.
+* Can we make our code more general?
+* Can we move our code into a module and then import and use it?
