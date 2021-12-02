@@ -2,7 +2,8 @@
 
 A fun introduction to the joys of programming with Python 3. No planking.
 
-<img alt="Python Logo" src="https://www.python.org/static/community_logos/python-logo-generic.svg" width="150" /><img alt="Replit Logo" src="https://cdn.freebiesupply.com/logos/large/2x/replit-logo-png-transparent.png" width="150" />
+<img alt="Python Logo" src="https://www.python.org/static/community_logos/python-logo-generic.svg" width="150" />
+<img alt="Replit Logo" src="https://cdn.freebiesupply.com/logos/large/2x/replit-logo-png-transparent.png" width="150" />
 
 ## Importing into repl.it
 
@@ -49,6 +50,7 @@ That's where most of the editing and learning will be done.
 ### Links to Lesson Notes
 
 * [Lesson 1 - The Basics, Weather API and Refactoring :hatched_chick:](./lesson1/LESSON1_NOTES.md)
+* [Lesson 2 - Lists of Mountains :mountain:](./lesson2/LESSON2_NOTES.md)
 
 ## Advanced Stuff
 
