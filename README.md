@@ -50,7 +50,7 @@ That's where most of the editing and learning will be done.
 ### Links to Lesson Notes
 
 * [Lesson 1 - The Basics, Weather API and Refactoring :hatched_chick:](./lesson1/LESSON1_NOTES.md)
-* [Lesson 2 - Lists, Dictionaries and Comets :saturn:](./lesson2/LESSON2_NOTES.md)
+* [Lesson 2 - Lists of Mountains :mountain:](./lesson2/LESSON2_NOTES.md)
 
 ## Advanced Stuff
 
